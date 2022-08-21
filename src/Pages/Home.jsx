@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import Navbar from '../Components/Navbar'
 import Logo from '../assets/mainLogo.png'
-import { FiMenu } from 'react-icons/fi'
 import { AiOutlineClose } from 'react-icons/ai'
 import moon from '../assets/moon.svg'
 import sun from '../assets/sun.svg'
-import { TbGridDots } from 'react-icons/tb'
 import HomeBody from './Home.Body'
 import { Routes, Route } from 'react-router-dom'
 import Channel from './Channel'
@@ -16,6 +14,7 @@ import Setup from './Setup'
 import Tutorial from './Tutorial'
 import MenuIcon from '@mui/icons-material/Menu';
 import Main from './Main'
+
 
 const Home = ({ darkMode, setDarkMode }) => {
     const [toggleSidebar, setToggleSidebar] = useState(false)
@@ -39,7 +38,7 @@ const Home = ({ darkMode, setDarkMode }) => {
                 </div>
                 {/* Mobile version Navbar expandable */}
                 <div className={` transition-all duration-300 ease-in-out z-20 lg:hidden mx-auto    flex justify-between items-center px-4 py-4 w-full fixed top-0 ${Scrolled ? 'bg-blue-lightmd  transition-all duration-300' : ''}  ${Scrolled ? 'dark:bg-blue-darkmd  transition-all duration-300' : ''}`}>
-                    <img className='max-w-[100px] max-h-[100px]' src={Logo} alt="Logo" />
+                    <Link to='/Main'> <img className='max-w-[100px] max-h-[100px]' src={Logo} alt="Logo" /> </Link>
                     <div className='rounded-full flex items-center justify-center w-8 h-8 bg-white '>
                         {/* <div className='p-4'>
                           {
