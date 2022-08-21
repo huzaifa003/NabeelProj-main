@@ -1,0 +1,193 @@
+.setupBtn{
+    width: 11rem;
+}
+@media only screen and (max-width:1400px){
+    .nav-logo{
+        height: 3rem;
+    }
+}
+@media only screen and (max-width:1066px){
+    .chanelLeftdiv{
+        width: 30%;
+    }
+    .setupBtn{
+        width: 11rem;
+    }
+}
+@media only screen and (max-width:1080px) {
+
+    .blink,
+    .instruction {
+        opacity: 0;
+        display: hidden;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width:980px) {
+
+    .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .image {
+        width: 100%;
+    }.guranteeCard{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:768px){
+    .setupBtn{
+        width: 90vw;
+        margin-left:-20px ;
+    }
+    .price_div{
+        grid-template-columns: auto auto;
+    }
+    .iconBtn{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: left;
+       gap: 5rem;
+        
+    }.boxIcon{
+        height: 80px;
+        width: 80px;
+    }
+   
+    .whiteCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .priceBox{
+        min-width: 10rem;
+      
+    }
+    .service_text{
+        text-align: center;
+    }
+    .progressBar{
+        display: flex;
+        justify-content: start;
+        align-items: left;
+        flex-direction: column-reverse;
+        height: 4rem;
+    }
+    .customCardMainHead{
+        font-size: 2.3rem;
+        font-weight: bolder;
+    }.cardButton{
+        display: block;
+        margin: auto;
+    }.cardPara{
+        width: 90%;
+    }.guranteeCard{
+        width: 90%;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }.timeTagText{
+        font-size: 1rem;
+    }.subscribe_text{
+        font-size: 1rem;
+    }.price_div_mob{
+        display: none;
+    }.upper_pricetag_type{
+        display: block;
+        margin-top: 10px;
+    }
+    /* .lower_pricetage_type{
+        display: none;
+    } */
+    .cast-google-text{
+        font-size: 1rem;
+    }
+    .cast-google-icon{
+       width: 10rem;
+      
+    }.cast-apple-text{
+        font-size: 1rem; 
+    }.cast-apple-icon{
+        width: 10rem;
+    }.cast-div{
+        gap: 5rem;
+    }.Mcast-text{
+        font-size: 1rem; 
+    }.MCast-icon{
+        width: 10rem;
+    }.sliderCard{
+        width: 90vw;
+    }.bottom-setup-div{
+        min-width: 92vw;
+        margin-left: -20px;
+      }.customCardButtonText{
+        font-size: 1rem;
+      }
+}
+
+@media only screen and (max-width:450px){
+
+    .price_div{
+        display: none;
+    }.price_div_mob{
+     display: block;
+    }
+   
+    .lower_pricetage_type{
+        display: block;
+    }.guranteeCard{
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width:395px){
+  
+   .service_div{
+    /* width: 100%; */
+   }
+  .price_main_div{
+   overflow: hidden;
+   /* width: 98vw; */
+  }.service-container{
+    /* width: 98vw; */
+  }
+  .bottom-setup-div{
+    min-width: 93vw;
+    margin-left: -20px;
+  }
+  /* .priceBox{
+ 
+  } */
+}
+@media only screen and (max-width:280px){
+  .main-text{
+font-size: 2.5rem;
+  }
+    /* .priceBox{
+        width: 100px;
+    } */
+  .sidebar{
+    height: 100%;
+  }
+  .light-text{
+    font-size: 1.2rem;
+  }
+  .uptime-mainhead{
+    line-height: 0.75rem;
+    font-size: 1rem;
+  }.cast-div{
+    gap: 0rem;
+}
+ }
+
+.MuiAccordionSummary-content{
+    height: 45px;
+    align-items: center;
+    
+}
