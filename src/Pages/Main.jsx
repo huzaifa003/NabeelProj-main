@@ -7,12 +7,12 @@ import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 
 
-const Main = () => {
+const Main = ({darkMode,setDarkMode}) => {
 
   return (
     <div>
-       <section class="main-section">
-        <div class="container">
+       <section className="main-section">
+        <div className="container">
         
             <img className='h-[40%] w-[40%]' src={Logo} alt=""/>
           
@@ -23,26 +23,26 @@ const Main = () => {
          
 
            
-            <div  class="boxes">
+            <div  className="boxes ">
           <a style={{display:'contents'}} href="http://google.com">
-                <div  class="box ">
+                <div  className={`${darkMode ? 'box' : 'boxDark'}   `}>
                     <WebIcon style={{width:"50%"}}></WebIcon>
-               <h6 class="box-text ">Website</h6>
+               <h6 className="box-text ">Website</h6>
                 </div>
                 </a>
                 
                 <a style={{display:'contents'}} href="http://google.com">
-                <div  class="box ">
+                <div  className={`${darkMode ? 'box' : 'boxDark'}   `}>
                 <PeopleAltIcon style={{width:"50%"}}></PeopleAltIcon>
-                    <h6  class="box-text ">Members Area</h6>
+                    <h6  className="box-text ">Members Area</h6>
                 </div>
                 </a>
 
                 <a style={{display:'contents'}} href="http://google.com">
-                <div  class="box ">
+                <div  className={`${darkMode ? 'box' : 'boxDark'}   `}>
                <ShoppingCartCheckoutIcon style={{width:"50%"}} ></ShoppingCartCheckoutIcon>
                    
-                    <h6 class="box-text ">Checkout</h6>
+                    <h6 className="box-text ">Checkout</h6>
                 </div>
                 </a>
             </div>

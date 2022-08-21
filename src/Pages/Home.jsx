@@ -107,7 +107,7 @@ const Home = ({ darkMode, setDarkMode }) => {
                     <Route path='/reseller' element={<Reseller darkMode={darkMode} setDarkMode={setDarkMode} />} />
                     <Route path='/setup' element={<Setup darkMode={darkMode} setDarkMode={setDarkMode} />} />
                     <Route path='/tutorial' element={<Tutorial />} />
-                    <Route path='/main' element={<Main />}/>
+                    <Route path='/main' element={<Main darkMode={darkMode} setDarkMode={setDarkMode} />}/>
                 </Routes>
 
                 <div className='w-full dark:bg-blue-darkmd text-white  bg-blue-lightmd p-4 mt-12'>

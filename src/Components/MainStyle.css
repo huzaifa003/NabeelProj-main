@@ -53,6 +53,38 @@ background-color: white;
 color: rgb(14, 14, 14);
 }
 
+.boxDark{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxDark:hover{
+    background-color: var(--box-bg-color);
+    color: white;
+}
+
+.boxDark svg{
+    
+    height: 100px;
+    margin: 1rem 0rem;
+}
+.boxDark-text{
+    color: currentColor;
+}
+
+.boxDark svg path{
+    fill: currentcolor;
+  }
+
 .box svg{
     
     height: 100px;
