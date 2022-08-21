@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Components/MainStyle.css"
-
+import "../Components/style.css"
 import Logo from '../assets/mainLogo.png'
 import WebIcon from '@mui/icons-material/Web';
 import PeopleAltIcon from '@mui/icons-material/PeopleAlt';

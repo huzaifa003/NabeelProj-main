@@ -25,7 +25,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
     return (
         <div className={`transition-all duration-300 ease-in-out  w-full px-8 py-4  flex items-center justify-around  shadow-lg  ${Scrolled ? 'bg-blue-lightmd' : ''} ${Scrolled ? 'dark:bg-blue-darkmd' : ''}`}>
-            <div className='w-[80%] flex items-center justify-between'>
+            <div className='w-full flex items-center justify-between'>
                 <div className='flex justify-center items-center'>
                     <Link to='/Main'>
                     {/* className='max-h-[50px] max-w-[80px]'  */}

@@ -1,11 +1,7 @@
 .setupBtn{
     width: 11rem;
 }
-@media only screen and (max-width:1400px){
-    .nav-logo{
-        height: 3rem;
-    }
-}
+
 @media only screen and (max-width:1066px){
     .chanelLeftdiv{
         width: 30%;

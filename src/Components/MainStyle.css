@@ -4,7 +4,9 @@
 :root{
     --bg-color:linear-gradient(to right, #8e2de2, #4a00e0);
     --text-color:white;
-    --box-bg-color:rgb(4 14 46);
+    --box-bg-color:#0C0B2B;
+    --box-dark-color-bg:#152B7A;
+    --white-color: white;
 }
 
 *{
@@ -52,15 +54,15 @@ p{
     fill: currentColor;
 }
 .box:hover{
-background-color: white;
+background-color: var(--white-color);
 color: rgb(14, 14, 14);
 }
 
 .boxDark{
     width: 30%;
     height: 100%;
-    background-color: white;
-    color: black;
+    background-color: var(--white-color);
+    color: var(--box-dark-color-bg);
     border-radius: 10px;
     transition: all 0.2s ease-in;
     cursor: pointer;
@@ -71,13 +73,13 @@ color: rgb(14, 14, 14);
 }
 
 .boxDark:hover{
-    background-color: var(--box-bg-color);
-    color: white;
+    background-color: var(--box-dark-color-bg);
+    color: var(--white-color);
 }
 
 .boxDark:hover.svg{
-    background-color: var(--box-bg-color);
-    color: white;
+    background-color: var(--white-color);
+    color: var(--white-color);
 }
 
 
@@ -85,7 +87,7 @@ color: rgb(14, 14, 14);
     
     height: 100px;
     margin: 1rem 0rem;
-    color: #1c0e94fa;
+
 }
 .boxDark-text{
     color: currentColor;
@@ -104,7 +106,7 @@ color: rgb(14, 14, 14);
     color: currentColor;
 }
 .boxTextLight{
-    color: #1c0e94fa;;
+    color: currentColor;;
 }
 .box svg path{
     fill: currentcolor;
@@ -130,7 +132,21 @@ color: rgb(14, 14, 14);
     }
     .box{
         height: 100%;
-        background-color: rgba(14, 14, 14, 0.628);
+        background-color: var(--box-bg-color);
+        border-radius: 10px;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        width: 90vw;
+        margin: 0.6rem 0rem;
+    }
+    .boxDark{
+        height: 100%;
+        background-color: var(--white-color);
+        color: var(--box-dark-color-bg);
         border-radius: 10px;
         transition: all 0.2s ease-in;
         cursor: pointer;
@@ -163,8 +179,4 @@ color: rgb(14, 14, 14);
     }
 
 
-  }
-
-  .h1{
-   color: #1c0e94fa;
   }
