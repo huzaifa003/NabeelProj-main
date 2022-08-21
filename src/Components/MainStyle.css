@@ -55,7 +55,7 @@ p{
 }
 .box:hover{
 background-color: var(--white-color);
-color: rgb(14, 14, 14);
+color: var(--box-dark-color-bg);
 }
 
 .boxDark{
